@@ -1,0 +1,464 @@
+:root{
+    --pr-color : #071952;
+}
+
+
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+/* navcolor */
+.navcolor {
+    background-color: var(--pr-color);
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+* {
+    z-index: 2;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.accent-img {
+    z-index: 1;
+}
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #EBF4F6;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Hero section  */
+#hero {
+    background: linear-gradient(160deg,var(--pr-color),#088395); 
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+    
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* width: 584px; */
+    margin-top: 60px;
+}
+
+.hero-tagline p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.button-lg-primary {
+    width: 280px;
+    height: 81px;
+    border: none;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--pr-color);
+}
+
+
+/* Layanan Section */
+#layanan {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--pr-color);
+    font-weight: 500;
+}
+
+.sub-layanan {
+    font-size: 25px;
+    font-weight: 700;
+    color: #293C79;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #37B7C3;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+}
+
+.card-layanan h3{
+    color: #071952;
+    font-weight: 700;
+    font-size: 30px;
+    transition: all .3s ease-in;
+}
+
+.card-layanan h4 {
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all .3s ease-in;
+}
+
+.card-layanan p {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    width: 300px;
+    transition: all .3s ease-in;
+}
+
+
+/* saat di hover */
+.card-layanan:hover {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    background: linear-gradient(160deg,var(--pr-color),#3A55A0);
+    padding: 35px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    transition: all .3s ease-in;
+}
+
+.card-layanan:hover h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all .3s ease-in;
+}
+
+.card-layanan:hover p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 300px;
+    transition: all .3s ease-in;
+}
+
+
+/* membuat style rute perjalanan  */
+
+#rute {
+    background: linear-gradient(160deg,var(--pr-color),#088395); 
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+}
+
+h5 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+}
+/* Untuk card rute perjalanan */
+.card-rute {
+
+    height: 88px;
+    border-radius: 5px;
+    background-color: var(--pr-color);
+    padding: 25px;
+    border-radius: 10px; 
+}
+
+.card-rute p {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+        
+}
+
+/* hover card rute */
+.card-rute:hover {
+
+    height: 88px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px; 
+}
+
+.card-rute:hover p {
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+}
+
+/* Armada Haikal  */
+
+#armada{
+    padding: 100px 0;
+}
+#armada h5 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+
+/* card armada */
+
+.card-fiture span {
+    font-size: 40px;
+    font-weight: 700;
+    width: 290px;
+    height: 108px;
+    color: #fff ;
+
+}
+
+
+.card-fiture p{
+    font-size: 30px;
+    font-weight: 500;
+    width: 340px;
+    height: 100px;
+    color: #fff;
+    
+}
+
+.card-fiture button{
+    font-size: 40px;
+    font-weight: 700;
+    border: none;
+    background-color: var(--pr-color);
+    color: #fff;
+    width: 234px;
+    height: 65px;
+
+}
+
+.card-fiture .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fiture .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.arrow-button-left {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: var(--pr-color);
+    padding: 0;
+    border-radius: 50%;
+}
+
+.arrow-button-right {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: var(--pr-color);
+    padding: 0;
+    border-radius: 50%;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.8s ease; /* Menambahkan transisi halus pada transformasi */
+}
+
+
+/* CONTACT PERSON */
+
+#contact-person {
+    background-image: url(../assets/img/backkontak.png);
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact-person .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact-person .container {
+    padding: 120px 0 120px 0;
+}
+
+#contact-person h3 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 496px;
+    height: 150px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+#contact-person span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 15px;
+    
+}
+
+#contact-person p {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.kontakcv h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 30px 0 15px 0;
+}
+
+.kontakcv a{
+    color: #fff;
+    text-decoration: none;
+    width: 320px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+
+.card-contact {
+    width: 100%;
+    height: 500px;
+    background-color: #FFFEFE;
+    border-radius: 9px;
+    padding: 54px 15px; 
+}
+
+.card-contact h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center; 
+    color: #043FB7;
+    height: 65px;
+}
+
+.form-control {
+    background-color: #D9D9D9;
+    height: 78px;
+    border-radius: 9;
+ 
+}
+
+.form-floating label {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #606060; 
+}
+
+.button-kontak {
+    width: 100px;
+    height: 75px;
+    background: #043FB7;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    
+}
+
+.button-kirim tulisan {
+    background-color: #000;
+}
+
+.alert {
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #000;
+}
+
+.copyright {
+    bottom: 10%;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+

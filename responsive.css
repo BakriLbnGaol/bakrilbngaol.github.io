@@ -1,0 +1,213 @@
+@media screen and (max-width :922px) {
+
+
+}
+
+@media screen and (max-width :576px) {
+    /* HERO SECTION */
+    
+
+
+    .hero-tagline h1 {
+        line-height: 45px;
+        font-size: 30px;
+    }               
+
+
+    .hero-tagline P {
+        font-size: 18px;
+        width: 55%;
+        line-height: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .button-lg-primary {
+        width: 150px;
+        height: 45px;
+        border: none;
+        background-color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--pr-color);
+    }
+
+    .arrow-heros {
+        width: 35px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .img-hero{
+        width: 65%;
+        height: auto;
+    }
+
+    .accent-img {
+        width: 50%;
+        height: 50%;
+    }
+
+
+    /* LAYANAN KAMI SECTION */
+    
+    .card-layanan {
+        margin-bottom: 20px;
+
+    }
+
+    h2 {
+        font-size: 40px;
+        color: var(--pr-color);
+        font-weight: 500;
+    }
+    
+    .sub-layanan {
+        
+        font-size: 20px;
+        font-weight: 700;
+        color: #293C79;
+    }
+
+    /* RUTE SECTION */
+
+    
+    h5 {
+        font-weight: 700;
+        color: #fff;
+        font-size: 33px;
+    }
+    /* Untuk card rute perjalanan */
+    .card-rute {
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        height: 65px;
+        border-radius: 5px;
+        background-color: var(--pr-color);
+        border-radius: 10px;
+    }
+    
+
+    .card-rute p {
+        font-weight: 500;
+        font-size: 1em;
+        color: #fff;
+    }
+
+    /* hover card rute */
+    .card-rute:hover {
+        padding: 10px 10px 10px 10px;
+        height: 65px;
+        border-radius: 5px;
+        background-color: #fff;
+        border-radius: 10px; 
+    }
+    
+    .card-rute:hover p {
+        font-weight: 500;
+        font-size: 15px;
+        color: #000;
+      
+    }
+
+    /* Card Armada */
+    #armada h5 {
+        font-size: 37px;
+        font-weight: 700;
+        color: var(--pr-color);
+    }
+
+    /* CARD CONTACT */
+
+    #contact-person .container {
+        padding: 50px 0 120px 0;
+    }
+
+
+    #contact-person h3 {
+        font-size: 2.5em;
+        width: 100%;
+        height: 190px;
+    }
+
+    #contact-person span {
+        font-size: 30px;
+        
+    }
+    
+    #contact-person p {
+        font-size: 30px;
+        margin-top: 10px;
+    
+    }
+    
+    .card-contact h2{
+        font-size: 38px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+            
+    .form-control {
+        height: auto;
+        border-radius: 9;
+    }   
+
+    .button-kontak {
+        width: 510px;
+        height: auto;
+        background: #043FB7;
+        font-size: 30px;
+        font-weight: 700;
+        border: none;
+        border-radius: 9px;
+    }
+
+    .alert {
+        height: 50px;   
+        font-size: 10px;
+        align-items: center;
+    }
+
+    /* FOOTER */
+
+    .footerlogo {
+        margin-bottom: 15px;
+    }
+
+    .footernav {
+        margin-bottom: 15px;
+    }
+    .carousel {
+        display: flex;
+        flex-wrap: nowrap;
+        transition: transform 0.5s ease; /* Menambahkan transisi halus pada transformasi */
+    }
+    
+
+    
+}
+
+@media screen and (max-width :369px) {
+    .button-kontak {
+        width: 296px;
+        background: #043FB7;
+        font-size: 30px;
+        font-weight: 700;   
+        border: none;
+    }
+
+    footer {
+        width: 100%;
+        height: 200px;
+        background: #000;
+    }
+    
+
+    footer a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+}
