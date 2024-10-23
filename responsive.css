@@ -153,7 +153,7 @@
     }   
 
     .button-kontak {
-        width: 510px;
+        
         height: auto;
         background: #043FB7;
         font-size: 30px;
@@ -189,7 +189,7 @@
 
 @media screen and (max-width :369px) {
     .button-kontak {
-        width: 296px;
+        
         background: #043FB7;
         font-size: 30px;
         font-weight: 700;   
