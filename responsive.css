@@ -3,24 +3,28 @@
 
 }
 
-@media screen and (max-width :590px) {
+@media screen and (max-width :576px) {
+  
     /* HERO SECTION */
     
 
 
     .hero-tagline h1 {
-        line-height: 45px;
-        font-size: 30px;
+        margin-top: 5em;
+        line-height: 1.5em;
+        font-size: 1.5rem;
+        height: auto;
+        
     }               
 
 
     .hero-tagline P {
-        font-size: 18px;
-        width: 55%;
-        line-height: 30px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
+        font-size: 1rem;
+        width: 12em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        margin-top: 15  px;
+    } 
 
     .button-lg-primary {
         width: 150px;
@@ -28,7 +32,7 @@
         border: none;
         background-color: #fff;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 1.4rem;
         color: var(--pr-color);
     }
 
@@ -39,13 +43,15 @@
     }
 
     .img-hero{
-        width: 65%;
-        height: auto;
+        width: 55vw;
+        height: 60vh;
+        margin-bottom: 2em;
     }
 
     .accent-img {
-        width: 50%;
-        height: 50%;
+        width: 50vw;
+        height: 10%;
+        
     }
 
 
@@ -53,18 +59,21 @@
     
     .card-layanan {
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
 
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
         color: var(--pr-color);
         font-weight: 500;
     }
     
     .sub-layanan {
         
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 700;
         color: #293C79;
     }
@@ -75,14 +84,19 @@
     h5 {
         font-weight: 700;
         color: #fff;
-        font-size: 33px;
+        font-size: 2.3rem;
     }
     /* Untuk card rute perjalanan */
+   #rute {
+    width: 100%;
+    height: 70vh;
+   }
+   
     .card-rute {
         text-align: center;
         padding: 10px 10px 10px 10px;
-        height: 65px;
-        border-radius: 5px;
+        height: 4em;
+
         background-color: var(--pr-color);
         border-radius: 10px;
     }
@@ -97,7 +111,7 @@
     /* hover card rute */
     .card-rute:hover {
         padding: 10px 10px 10px 10px;
-        height: 65px;
+        height: 4em;
         border-radius: 5px;
         background-color: #fff;
         border-radius: 10px; 
@@ -105,46 +119,55 @@
     
     .card-rute:hover p {
         font-weight: 500;
-        font-size: 15px;
+        font-size: 1em;
         color: #000;
       
     }
 
     /* Card Armada */
+    
+    #armada {
+        width: 100%;
+        height: 85vh;
+    }
+
     #armada h5 {
-        font-size: 37px;
+        font-size: 2.3rem;
         font-weight: 700;
         color: var(--pr-color);
     }
 
     /* CARD CONTACT */
 
+    #contact-person {
+        height: auto;
+    }
     #contact-person .container {
         padding: 50px 0 120px 0;
     }
 
 
     #contact-person h3 {
-        font-size: 2.5em;
+        font-size: 2.4rem;
         width: 100%;
         height: 190px;
     }
 
     #contact-person span {
-        font-size: 30px;
+        font-size: 2rem;
         
     }
     
     #contact-person p {
-        font-size: 30px;
+        font-size: 1.8rem;
         margin-top: 10px;
     
     }
     
     .card-contact h2{
-        font-size: 38px;
-        margin-bottom: 20px;
-        line-height: 35px;
+        font-size: 2.7rem;
+        margin-bottom: 1.5em;
+        line-height: 1em;
     }
             
     .form-control {
@@ -156,7 +179,7 @@
         
         height: auto;
         background: #043FB7;
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: 700;
         border: none;
         border-radius: 9px;
@@ -170,13 +193,14 @@
 
     /* FOOTER */
 
-    .footerlogo {
-        margin-bottom: 15px;
+
+
+    .footernav a {
+        font-size: 1rem;
+        margin-bottom: 2em;
+
     }
 
-    .footernav {
-        margin-bottom: 8px;
-    }
     .carousel {
         display: flex;
         flex-wrap: nowrap;
@@ -187,8 +211,8 @@
     
 }
 
-@media screen and (max-width :369px) {
-    .button-kontak {
+/* @media screen and (max-width :369px) {
+    /* .button-kontak {
         
         background: #043FB7;
         font-size: 30px;
@@ -208,6 +232,9 @@
         font-size: 12px;
         color: #fff;
         font-weight: 500;
+    } */
+    /* #hero { 
+        background: brown;
     }
     
-}
+/* } */ 
